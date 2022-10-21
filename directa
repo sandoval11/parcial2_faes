@@ -1,0 +1,13 @@
+$TTL 3H
+@	IN SOA	@ faes.faes.sv. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	NS      faes.faes.sv. 
+@       A       192.168.236.140 
+faes    A       192.168.236.140
+www     CNAME   faes 
+web     CNAME   faes 
+ftp     CNAME   faes 

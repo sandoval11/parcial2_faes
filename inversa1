@@ -1,0 +1,12 @@
+$TTL 3H
+@	IN SOA	@ faes.faes.servicios.sv. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H)	; minimum
+	NS           faes.faes.servicios.sv. 
+2       PTR          faes.faes.servicios.sv.                    
+2       PTR          www.faes.servicios.sv. 
+2       PTR          web.faes.servicios.sv. 
+2       PTR          ftp.faes.servicios.sv. 
